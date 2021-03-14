@@ -7,31 +7,20 @@
 
 ###
 DFLT1="lab_uno"
-DFLT2="lab_uno_/2remove" # 'nie ma spacji w zadnych nazwach'
+DFLT2="2remove" # 'nie ma spacji w zadnych nazwach'
 DFLT3="bakap"
 
 # przypisz wartosc default lub wartosc odpowiedniego argumentu
 SOURCE_DIR="${1:-${DFLT1}}"
-RM_LIST="${2:-${DFLT2}}"
+RM_LIST="${SOURCE_DIR}/${2:-${DFLT2}}"
 TARGET_DIR="${3:-${DFLT3}}"
+
 
 ###
 # jesli nie istnieje katalog TARGET_DIR -> stworz go
 if [[ ! -d ${TARGET_DIR} ]]; then
     mkdir ${TARGET_DIR}
     echo "Stworzono katalog '${TARGET_DIR}'."
-fi
-
-###
-# jesli nie istnieje plik RM_LIST -> stworz go i zainicjuj defaultowymi danymi
-if [[ ! -f ${RM_LIST} ]]; then
-    for i in {1..4}; do
-        echo "file_to_be_removed_$i" >> ${RM_LIST}
-    done 
-    echo "Stworzono plik '${RM_LIST}', wpisano do niego wartosci domyslne:"
-    echo "-------${RM_LIST}-------"
-    cat ${RM_LIST}
-    echo "--------------------"
 fi
 
 ###
@@ -55,6 +44,18 @@ if [[ ! -d ${SOURCE_DIR} ]]; then
     echo "Stworzono plik '${FILE2}'"
     echo "Stworzono katalog '${FILE3}'"
     echo "Stworzono plik '${FILE4}'"
+
+
+    ###
+    # jesli nie istnieje plik RM_LIST -> stworz go i zainicjuj defaultowymi danymi
+    if [[ ! -f ${RM_LIST} ]]; then
+        echo "File not found!"
+        touch "${RM_LIST}"
+        for i in {1..4}; do
+            echo "file_to_be_removed_$i" >> ${RM_LIST}
+        done 
+        echo "Stworzono plik '${RM_LIST}', wpisano do niego wartosci domyslne."
+    fi
 fi
 
 echo -e "\nDrzewo przed usuwaniem:"
@@ -93,6 +94,7 @@ tree
 #       w przypadku katalogow, zostaly skopiowane, wiec wiadomo
 #       ze i tak tam beda.
 # katalog sie liczy jako 1.
+echo -e "\n\n------------------------"
 NR_OF_FILES=$(ls ${SOURCE_DIR} | wc -l)
 if [[ ${NR_OF_FILES} -gt 0 ]]; then
     echo "jeszcze cos zostalo"
@@ -112,6 +114,7 @@ if [[ ${NR_OF_FILES} -gt 0 ]]; then
     else # nic nie zostalo
         echo "nic nie zostalo (tu byl Kononowicz)"
 fi
+echo -e "------------------------\n\n"
 
 ###
 # obdbieranie praw do edycji plikom
@@ -127,7 +130,7 @@ ls -l ${TARGET_DIR}
 # tworzenie pliku bakap_DATA.zip
 # RRRR-MM-DD
 
-DATE=$(date +"%Y-%m-%d")
+DATE=$(date +"%Y-%m-%d") # today RRRR-MM-DD
 ZIP_OUT="bakap_${DATE}.zip"
 DIR_IN=${TARGET_DIR}
 
