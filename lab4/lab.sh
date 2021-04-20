@@ -22,10 +22,11 @@ cat yolo.csv | grep -P '^\d+[13579],' 1>&2
 # 2.99 5.99 9.99 value ludzi
 cat yolo.csv | grep -P '\$[259]\.99[BM]' | cut -d',' -f2,7
 # adres ip ma jednocyfrowe dwa pierwsze oktety
-cat yolo.csv | cut -d',' -f6 | cut -d'.' -f1,2 | grep -P '^[0-9]\.[0-9]' 1>&2
+cat yolo.csv | cut -d',' -f6 | grep -P '^[0-9]\.[0-9]\.' 1>&2
 
-# zamiana $HEADER$ na /temat/
-cd deer/
+# zamiana /temat/ na /temat/
+DIR='groovies'
+cd ${DIR}
 for file in $(ls); do
     sed -i 's|\$HEADER\$|/temat/|g' ${file}
 done
