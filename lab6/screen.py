@@ -115,7 +115,10 @@ class GameBoard():
             if space_in_line != -1 and self.is_move_legal(space_in_line):
                 choice = space_in_line
             else:
-                choice = self.get_free_middle()
+                if self.is_corner_attack():
+                    choice = self.get_defensive_corner()
+                else:
+                    choice = self.get_free_middle()
             self.moves_enemy.append(choice)
         elif moves_total == 4 or moves_total == 6:
             # if 2 'X' in a line, go there
@@ -144,6 +147,20 @@ class GameBoard():
             self.moves_enemy.append(choice)
         return choice
 
+    def is_corner_attack(self):
+        return [self.moves[i] for i in [1, 3, 5, 7]].count('O') == 2
+
+    def get_defensive_corner(self):
+        middles = [1, 3, 5, 7]
+        middle_pairs = [
+            [1, 5, 2],
+            [1, 3, 0],
+            [3, 7, 6],
+            [5, 7, 8]
+        ]
+        for pair in middle_pairs:
+            if self.moves[pair[0]] == 'O' and self.moves[pair[1]] == 'O':
+                return pair[2]
 
     def get_space_in_line(self):
         """returns best move if a line with a space exists"""
