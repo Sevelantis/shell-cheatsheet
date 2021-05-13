@@ -17,6 +17,4 @@ git clone link
 python3 circle_and_cross.py
 ```
 
-## view
-
 ![Alt text](/readme-files/board-screen.png?raw=true "gameplay screenshop")
