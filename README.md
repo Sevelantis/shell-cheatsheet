@@ -1,5 +1,5 @@
-# SO2
-
+# operating-systems-2
+## brief
  - Lab2 -> Bash best practices, first steps
  - Lab3 -> Bash - chmod, groups, symlinks, regular files
  - Lab4 -> Bash - regex - grep, sed
