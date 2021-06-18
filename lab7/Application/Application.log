@@ -1,0 +1,394 @@
+2021-06-18 10:28:42,940:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 10:28:42,940:werkzeug: * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2021-06-18 10:28:52,043:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 10:28:52,043:werkzeug: * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2021-06-18 10:29:06,551:werkzeug:172.18.0.1 - - [18/Jun/2021 10:29:06] "[33mGET /factorial/4 HTTP/1.1[0m" 404 -
+2021-06-18 10:30:13,585:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 10:30:13,585:werkzeug: * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)
+2021-06-18 10:30:15,057:root:4! = 24, calc_time=0.003437[ms]
+2021-06-18 10:30:15,057:werkzeug:172.18.0.1 - - [18/Jun/2021 10:30:15] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 10:59:31,780:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 10:59:31,780:werkzeug: * Running on http://172.19.0.3:5000/ (Press CTRL+C to quit)
+2021-06-18 10:59:50,210:root:4! = 24, calc_time=0.003828[ms]
+2021-06-18 10:59:50,211:werkzeug:172.19.0.1 - - [18/Jun/2021 10:59:50] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 11:01:49,519:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 11:01:49,521:werkzeug: * Running on http://172.19.0.5:5000/ (Press CTRL+C to quit)
+2021-06-18 11:02:03,557:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 11:02:03,557:werkzeug: * Running on http://172.19.0.2:5000/ (Press CTRL+C to quit)
+2021-06-18 11:03:45,839:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 11:03:45,840:werkzeug: * Running on http://172.19.0.2:5000/ (Press CTRL+C to quit)
+2021-06-18 11:06:05,294:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 11:06:05,294:werkzeug: * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)
+2021-06-18 11:06:44,341:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 11:06:44,341:werkzeug: * Running on http://172.19.0.5:5000/ (Press CTRL+C to quit)
+2021-06-18 11:09:03,906:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 11:09:03,906:werkzeug: * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)
+2021-06-18 11:09:24,528:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 11:09:24,529:werkzeug: * Running on http://172.19.0.3:5000/ (Press CTRL+C to quit)
+2021-06-18 11:12:09,713:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 11:12:09,713:werkzeug: * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)
+2021-06-18 11:12:43,262:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 11:12:43,262:werkzeug: * Running on http://172.19.0.3:5000/ (Press CTRL+C to quit)
+2021-06-18 11:21:50,135:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 11:21:50,136:werkzeug: * Running on http://172.19.0.5:5000/ (Press CTRL+C to quit)
+2021-06-18 11:22:03,730:root:44! = 2658271574788448768043625811014615890319638528000000000, calc_time=0.003867[ms]
+2021-06-18 11:22:03,730:werkzeug:172.19.0.1 - - [18/Jun/2021 11:22:03] "GET /factorial/44 HTTP/1.1" 200 -
+2021-06-18 11:22:10,018:root:2^8 = 256.0, calc_time=0.006302[ms]
+2021-06-18 11:22:10,018:werkzeug:172.19.0.1 - - [18/Jun/2021 11:22:10] "GET /pow/2%5E8 HTTP/1.1" 200 -
+2021-06-18 11:30:13,732:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 11:30:13,732:werkzeug: * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)
+2021-06-18 11:30:46,168:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 11:30:46,168:werkzeug: * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)
+2021-06-18 12:01:54,194:root:4! = 24, calc_time=0.003506[ms]
+2021-06-18 12:01:54,194:werkzeug:172.19.0.1 - - [18/Jun/2021 12:01:54] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 12:01:57,169:root:4! = 24, calc_time=0.003065[ms]
+2021-06-18 12:01:57,169:werkzeug:172.19.0.1 - - [18/Jun/2021 12:01:57] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 12:01:57,472:root:4! = 24, calc_time=0.002384[ms]
+2021-06-18 12:01:57,472:werkzeug:172.19.0.1 - - [18/Jun/2021 12:01:57] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 12:01:57,752:root:4! = 24, calc_time=0.002495[ms]
+2021-06-18 12:01:57,753:werkzeug:172.19.0.1 - - [18/Jun/2021 12:01:57] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 12:01:58,025:root:4! = 24, calc_time=0.003116[ms]
+2021-06-18 12:01:58,025:werkzeug:172.19.0.1 - - [18/Jun/2021 12:01:58] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 12:01:58,288:root:4! = 24, calc_time=0.003406[ms]
+2021-06-18 12:01:58,288:werkzeug:172.19.0.1 - - [18/Jun/2021 12:01:58] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 12:01:58,569:root:4! = 24, calc_time=0.002284[ms]
+2021-06-18 12:01:58,569:werkzeug:172.19.0.1 - - [18/Jun/2021 12:01:58] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 12:01:58,857:root:4! = 24, calc_time=0.002324[ms]
+2021-06-18 12:01:58,857:werkzeug:172.19.0.1 - - [18/Jun/2021 12:01:58] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 12:01:59,097:root:4! = 24, calc_time=0.002605[ms]
+2021-06-18 12:01:59,097:werkzeug:172.19.0.1 - - [18/Jun/2021 12:01:59] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 12:02:03,433:root:5! = 120, calc_time=0.002635[ms]
+2021-06-18 12:02:03,434:werkzeug:172.19.0.1 - - [18/Jun/2021 12:02:03] "GET /factorial/5 HTTP/1.1" 200 -
+2021-06-18 12:02:05,682:root:5! = 120, calc_time=0.003457[ms]
+2021-06-18 12:02:05,682:werkzeug:172.19.0.1 - - [18/Jun/2021 12:02:05] "GET /factorial/5 HTTP/1.1" 200 -
+2021-06-18 12:02:06,961:root:7! = 5040, calc_time=0.002234[ms]
+2021-06-18 12:02:06,961:werkzeug:172.19.0.1 - - [18/Jun/2021 12:02:06] "GET /factorial/7 HTTP/1.1" 200 -
+2021-06-18 12:02:10,074:root:sqrt2 of 5 = 2.23606797749979, calc_time=0.002595[ms]
+2021-06-18 12:02:10,074:werkzeug:172.19.0.1 - - [18/Jun/2021 12:02:10] "GET /sqrt/5 HTTP/1.1" 200 -
+2021-06-18 12:02:11,826:root:sqrt2 of 6 = 2.449489742783178, calc_time=0.003106[ms]
+2021-06-18 12:02:11,826:werkzeug:172.19.0.1 - - [18/Jun/2021 12:02:11] "GET /sqrt/6 HTTP/1.1" 200 -
+2021-06-18 12:02:18,466:root:2^7 = 128.0, calc_time=0.006051[ms]
+2021-06-18 12:02:18,467:werkzeug:172.19.0.1 - - [18/Jun/2021 12:02:18] "GET /pow/2^7 HTTP/1.1" 200 -
+2021-06-18 12:02:23,218:root:33^11 = 5.054210651372682e+16, calc_time=0.006502[ms]
+2021-06-18 12:02:23,219:werkzeug:172.19.0.1 - - [18/Jun/2021 12:02:23] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:03:22,693:root:33^11 = 5.054210651372682e+16, calc_time=0.006242[ms]
+2021-06-18 12:03:22,694:werkzeug:172.19.0.1 - - [18/Jun/2021 12:03:22] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:03:23,134:root:33^11 = 5.054210651372682e+16, calc_time=0.006963[ms]
+2021-06-18 12:03:23,135:werkzeug:172.19.0.1 - - [18/Jun/2021 12:03:23] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:03:35,222:root:33^11 = 5.054210651372682e+16, calc_time=0.006522[ms]
+2021-06-18 12:03:35,222:werkzeug:172.19.0.1 - - [18/Jun/2021 12:03:35] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:03:35,783:root:33^11 = 5.054210651372682e+16, calc_time=0.007013[ms]
+2021-06-18 12:03:35,784:werkzeug:172.19.0.1 - - [18/Jun/2021 12:03:35] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:03:36,191:root:33^11 = 5.054210651372682e+16, calc_time=0.005811[ms]
+2021-06-18 12:03:36,191:werkzeug:172.19.0.1 - - [18/Jun/2021 12:03:36] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:03:37,967:root:33^11 = 5.054210651372682e+16, calc_time=0.007425[ms]
+2021-06-18 12:03:37,967:werkzeug:172.19.0.1 - - [18/Jun/2021 12:03:37] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:03:38,248:root:33^11 = 5.054210651372682e+16, calc_time=0.006532[ms]
+2021-06-18 12:03:38,248:werkzeug:172.19.0.1 - - [18/Jun/2021 12:03:38] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:03:40,151:root:33^11 = 5.054210651372682e+16, calc_time=0.010229[ms]
+2021-06-18 12:03:40,151:werkzeug:172.19.0.1 - - [18/Jun/2021 12:03:40] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:03:40,583:root:33^11 = 5.054210651372682e+16, calc_time=0.005341[ms]
+2021-06-18 12:03:40,583:werkzeug:172.19.0.1 - - [18/Jun/2021 12:03:40] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:03:40,903:root:33^11 = 5.054210651372682e+16, calc_time=0.006602[ms]
+2021-06-18 12:03:40,903:werkzeug:172.19.0.1 - - [18/Jun/2021 12:03:40] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:03:41,264:root:33^11 = 5.054210651372682e+16, calc_time=0.006512[ms]
+2021-06-18 12:03:41,264:werkzeug:172.19.0.1 - - [18/Jun/2021 12:03:41] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:03:42,326:root:33^11 = 5.054210651372682e+16, calc_time=0.006302[ms]
+2021-06-18 12:03:42,326:werkzeug:172.19.0.1 - - [18/Jun/2021 12:03:42] "GET /pow/33^11 HTTP/1.1" 200 -
+2021-06-18 12:56:42,707:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 12:56:42,708:werkzeug: * Running on http://172.19.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:00:32,354:root:4! = 24, calc_time=0.006202[ms]
+2021-06-18 13:00:32,354:werkzeug:172.19.0.1 - - [18/Jun/2021 13:00:32] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 13:02:09,157:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:02:09,157:werkzeug: * Running on http://172.19.0.3:5000/ (Press CTRL+C to quit)
+2021-06-18 13:03:01,698:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:03:01,698:werkzeug: * Running on http://172.19.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:07:28,159:root:sqrt2 of 9 = 3.0, calc_time=0.005109[ms]
+2021-06-18 13:07:28,159:werkzeug:172.19.0.1 - - [18/Jun/2021 13:07:28] "GET /sqrt/9 HTTP/1.1" 200 -
+2021-06-18 13:09:42,645:root:sqrt2 of 9 = 3.0, calc_time=0.003527[ms]
+2021-06-18 13:09:42,645:werkzeug:172.19.0.1 - - [18/Jun/2021 13:09:42] "GET /sqrt/9 HTTP/1.1" 200 -
+2021-06-18 13:09:43,396:root:sqrt2 of 9 = 3.0, calc_time=0.003537[ms]
+2021-06-18 13:09:43,396:werkzeug:172.19.0.1 - - [18/Jun/2021 13:09:43] "GET /sqrt/9 HTTP/1.1" 200 -
+2021-06-18 13:09:43,836:root:sqrt2 of 9 = 3.0, calc_time=0.003426[ms]
+2021-06-18 13:09:43,836:werkzeug:172.19.0.1 - - [18/Jun/2021 13:09:43] "GET /sqrt/9 HTTP/1.1" 200 -
+2021-06-18 13:09:44,229:root:sqrt2 of 9 = 3.0, calc_time=0.002766[ms]
+2021-06-18 13:09:44,229:werkzeug:172.19.0.1 - - [18/Jun/2021 13:09:44] "GET /sqrt/9 HTTP/1.1" 200 -
+2021-06-18 13:10:47,927:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:10:47,927:werkzeug: * Running on http://172.19.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:12:47,643:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:12:47,643:werkzeug: * Running on http://172.19.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:12:51,057:root:4! = 24, calc_time=0.004338[ms]
+2021-06-18 13:12:51,057:werkzeug:172.19.0.1 - - [18/Jun/2021 13:12:51] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 13:13:06,554:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:13:06,554:werkzeug: * Running on http://172.19.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:13:35,409:root:sqrt2 of 9 = 3.0, calc_time=0.003967[ms]
+2021-06-18 13:13:35,409:werkzeug:172.19.0.1 - - [18/Jun/2021 13:13:35] "GET /sqrt/9 HTTP/1.1" 200 -
+2021-06-18 13:13:37,488:root:sqrt2 of 9 = 3.0, calc_time=0.003216[ms]
+2021-06-18 13:13:37,489:werkzeug:172.19.0.1 - - [18/Jun/2021 13:13:37] "GET /sqrt/9 HTTP/1.1" 200 -
+2021-06-18 13:14:45,251:root:sqrt2 of 9 = 3.0, calc_time=0.003877[ms]
+2021-06-18 13:14:45,252:werkzeug:172.19.0.1 - - [18/Jun/2021 13:14:45] "GET /sqrt/9 HTTP/1.1" 200 -
+2021-06-18 13:14:45,605:root:sqrt2 of 9 = 3.0, calc_time=0.003106[ms]
+2021-06-18 13:14:45,605:werkzeug:172.19.0.1 - - [18/Jun/2021 13:14:45] "GET /sqrt/9 HTTP/1.1" 200 -
+2021-06-18 13:14:45,915:root:sqrt2 of 9 = 3.0, calc_time=0.002905[ms]
+2021-06-18 13:14:45,916:werkzeug:172.19.0.1 - - [18/Jun/2021 13:14:45] "GET /sqrt/9 HTTP/1.1" 200 -
+2021-06-18 13:14:46,181:root:sqrt2 of 9 = 3.0, calc_time=0.002976[ms]
+2021-06-18 13:14:46,181:werkzeug:172.19.0.1 - - [18/Jun/2021 13:14:46] "GET /sqrt/9 HTTP/1.1" 200 -
+2021-06-18 13:17:08,340:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:17:08,340:werkzeug: * Running on http://172.19.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:17:17,989:root:4! = 24, calc_time=0.004128[ms]
+2021-06-18 13:17:17,990:werkzeug:172.19.0.1 - - [18/Jun/2021 13:17:17] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 13:18:23,124:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:18:23,124:werkzeug: * Running on http://172.19.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:20:57,526:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:20:57,526:werkzeug: * Running on http://172.18.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:21:03,464:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:21:03,464:werkzeug: * Running on http://172.18.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:22:03,301:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:22:03,301:werkzeug: * Running on http://172.18.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:29:45,605:root:4! = 24, calc_time=0.00494[ms]
+2021-06-18 13:29:45,606:werkzeug:172.18.0.1 - - [18/Jun/2021 13:29:45] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 13:29:52,026:root:7! = 5040, calc_time=0.001523[ms]
+2021-06-18 13:29:52,026:werkzeug:172.18.0.1 - - [18/Jun/2021 13:29:52] "GET /factorial/7 HTTP/1.1" 200 -
+2021-06-18 13:30:15,229:werkzeug:172.18.0.1 - - [18/Jun/2021 13:30:15] "GET / HTTP/1.1" 200 -
+2021-06-18 13:37:05,006:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:37:05,006:werkzeug: * Running on http://172.18.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:37:17,732:werkzeug:172.18.0.1 - - [18/Jun/2021 13:37:17] "GET / HTTP/1.1" 200 -
+2021-06-18 13:38:25,804:werkzeug:172.18.0.1 - - [18/Jun/2021 13:38:25] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:38:38,343:werkzeug:172.18.0.1 - - [18/Jun/2021 13:38:38] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:38:51,624:werkzeug:172.18.0.1 - - [18/Jun/2021 13:38:51] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:38:53,880:werkzeug:172.18.0.1 - - [18/Jun/2021 13:38:53] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:39:18,182:werkzeug:172.18.0.1 - - [18/Jun/2021 13:39:18] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:39:49,901:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:39:49,901:werkzeug: * Running on http://172.18.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:39:57,042:root:3^5 = 243.0, calc_time=0.009228[ms]
+2021-06-18 13:39:57,043:werkzeug:172.18.0.1 - - [18/Jun/2021 13:39:57] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:39:57,796:root:3^5 = 243.0, calc_time=0.004789[ms]
+2021-06-18 13:39:57,797:werkzeug:172.18.0.1 - - [18/Jun/2021 13:39:57] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:39:58,165:root:3^5 = 243.0, calc_time=0.00551[ms]
+2021-06-18 13:39:58,166:werkzeug:172.18.0.1 - - [18/Jun/2021 13:39:58] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:39:58,693:root:3^5 = 243.0, calc_time=0.0055[ms]
+2021-06-18 13:39:58,694:werkzeug:172.18.0.1 - - [18/Jun/2021 13:39:58] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:40:22,298:root:3^5 = 243.0, calc_time=0.00507[ms]
+2021-06-18 13:40:22,299:werkzeug:172.18.0.1 - - [18/Jun/2021 13:40:22] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:43:23,266:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:43:23,266:werkzeug: * Running on http://172.18.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:43:50,631:root:3^5 = 243.0, calc_time=0.01057[ms]
+2021-06-18 13:43:50,631:werkzeug:172.18.0.1 - - [18/Jun/2021 13:43:50] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:43:52,986:root:3^5 = 243.0, calc_time=0.006673[ms]
+2021-06-18 13:43:52,987:werkzeug:172.18.0.1 - - [18/Jun/2021 13:43:52] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:43:53,313:root:3^5 = 243.0, calc_time=0.00507[ms]
+2021-06-18 13:43:53,314:werkzeug:172.18.0.1 - - [18/Jun/2021 13:43:53] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:43:53,617:root:3^5 = 243.0, calc_time=0.00526[ms]
+2021-06-18 13:43:53,617:werkzeug:172.18.0.1 - - [18/Jun/2021 13:43:53] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:43:53,945:root:3^5 = 243.0, calc_time=0.005761[ms]
+2021-06-18 13:43:53,945:werkzeug:172.18.0.1 - - [18/Jun/2021 13:43:53] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:43:54,194:root:3^5 = 243.0, calc_time=0.00501[ms]
+2021-06-18 13:43:54,194:werkzeug:172.18.0.1 - - [18/Jun/2021 13:43:54] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:44:01,330:root:3^5 = 243.0, calc_time=0.006402[ms]
+2021-06-18 13:44:01,330:werkzeug:172.18.0.1 - - [18/Jun/2021 13:44:01] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:44:01,577:root:3^5 = 243.0, calc_time=0.006462[ms]
+2021-06-18 13:44:01,578:werkzeug:172.18.0.1 - - [18/Jun/2021 13:44:01] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:44:01,848:root:3^5 = 243.0, calc_time=0.004819[ms]
+2021-06-18 13:44:01,849:werkzeug:172.18.0.1 - - [18/Jun/2021 13:44:01] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:44:02,126:root:3^5 = 243.0, calc_time=0.006302[ms]
+2021-06-18 13:44:02,126:werkzeug:172.18.0.1 - - [18/Jun/2021 13:44:02] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:44:02,402:root:3^5 = 243.0, calc_time=0.006342[ms]
+2021-06-18 13:44:02,403:werkzeug:172.18.0.1 - - [18/Jun/2021 13:44:02] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:44:02,927:root:3^5 = 243.0, calc_time=0.006783[ms]
+2021-06-18 13:44:02,928:werkzeug:172.18.0.1 - - [18/Jun/2021 13:44:02] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 13:46:20,308:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:46:20,308:werkzeug: * Running on http://172.18.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 13:48:19,390:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 13:48:19,390:werkzeug: * Running on http://172.18.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 14:07:00,445:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 14:07:00,445:werkzeug: * Running on http://172.18.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 14:07:16,410:root:3^5 = 243.0, calc_time=0.008146[ms]
+2021-06-18 14:07:16,411:werkzeug:172.18.0.1 - - [18/Jun/2021 14:07:16] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 14:07:17,262:root:3^5 = 243.0, calc_time=0.004308[ms]
+2021-06-18 14:07:17,262:werkzeug:172.18.0.1 - - [18/Jun/2021 14:07:17] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 14:07:17,518:root:3^5 = 243.0, calc_time=0.003968[ms]
+2021-06-18 14:07:17,519:werkzeug:172.18.0.1 - - [18/Jun/2021 14:07:17] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 14:07:21,422:root:3^5 = 243.0, calc_time=0.006222[ms]
+2021-06-18 14:07:21,422:werkzeug:172.18.0.1 - - [18/Jun/2021 14:07:21] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 14:19:51,776:root:3^5 = 243.0, calc_time=0.021861[ms]
+2021-06-18 14:19:51,776:werkzeug:172.18.0.1 - - [18/Jun/2021 14:19:51] "GET /pow/3%5E5 HTTP/1.1" 200 -
+2021-06-18 14:25:03,449:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 14:25:03,449:werkzeug: * Running on http://172.21.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 14:25:28,546:werkzeug:172.21.0.1 - - [18/Jun/2021 14:25:28] "GET / HTTP/1.1" 200 -
+2021-06-18 14:25:34,276:root:4! = 24, calc_time=0.007665[ms]
+2021-06-18 14:25:34,276:werkzeug:172.21.0.1 - - [18/Jun/2021 14:25:34] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:26:22,142:root:4! = 24, calc_time=0.002334[ms]
+2021-06-18 14:26:22,142:werkzeug:172.21.0.1 - - [18/Jun/2021 14:26:22] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:26:22,974:root:4! = 24, calc_time=0.001233[ms]
+2021-06-18 14:26:22,975:werkzeug:172.21.0.1 - - [18/Jun/2021 14:26:22] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:26:23,190:root:4! = 24, calc_time=0.002204[ms]
+2021-06-18 14:26:23,191:werkzeug:172.21.0.1 - - [18/Jun/2021 14:26:23] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:26:23,390:root:4! = 24, calc_time=0.002645[ms]
+2021-06-18 14:26:23,391:werkzeug:172.21.0.1 - - [18/Jun/2021 14:26:23] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:26:23,602:root:4! = 24, calc_time=0.003206[ms]
+2021-06-18 14:26:23,603:werkzeug:172.21.0.1 - - [18/Jun/2021 14:26:23] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:26:23,801:root:4! = 24, calc_time=0.003086[ms]
+2021-06-18 14:26:23,801:werkzeug:172.21.0.1 - - [18/Jun/2021 14:26:23] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:26:24,002:root:4! = 24, calc_time=0.003527[ms]
+2021-06-18 14:26:24,003:werkzeug:172.21.0.1 - - [18/Jun/2021 14:26:24] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:26:24,203:root:4! = 24, calc_time=0.002986[ms]
+2021-06-18 14:26:24,204:werkzeug:172.21.0.1 - - [18/Jun/2021 14:26:24] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:26:24,403:root:4! = 24, calc_time=0.002705[ms]
+2021-06-18 14:26:24,404:werkzeug:172.21.0.1 - - [18/Jun/2021 14:26:24] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:32:40,077:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 14:32:40,077:werkzeug: * Running on http://172.22.0.5:5000/ (Press CTRL+C to quit)
+2021-06-18 14:32:44,599:root:4! = 24, calc_time=0.004127[ms]
+2021-06-18 14:32:44,599:werkzeug:172.22.0.1 - - [18/Jun/2021 14:32:44] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:35:08,610:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 14:35:08,610:werkzeug: * Running on http://172.26.0.5:5000/ (Press CTRL+C to quit)
+2021-06-18 14:37:10,409:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 14:37:10,409:werkzeug: * Running on http://172.27.0.3:5000/ (Press CTRL+C to quit)
+2021-06-18 14:37:28,252:root:4! = 24, calc_time=0.004218[ms]
+2021-06-18 14:37:28,253:werkzeug:172.27.0.1 - - [18/Jun/2021 14:37:28] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:38:03,645:root:4! = 24, calc_time=0.002585[ms]
+2021-06-18 14:38:03,645:werkzeug:172.27.0.1 - - [18/Jun/2021 14:38:03] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:38:04,124:root:4! = 24, calc_time=0.002394[ms]
+2021-06-18 14:38:04,124:werkzeug:172.27.0.1 - - [18/Jun/2021 14:38:04] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:38:04,429:root:4! = 24, calc_time=0.002354[ms]
+2021-06-18 14:38:04,429:werkzeug:172.27.0.1 - - [18/Jun/2021 14:38:04] "GET /factorial/4 HTTP/1.1" 200 -
+2021-06-18 14:39:21,425:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 14:39:21,425:werkzeug: * Running on http://172.31.0.4:5000/ (Press CTRL+C to quit)
+2021-06-18 15:05:40,815:root:11! = 39916800, calc_time=0.004378[ms]
+2021-06-18 15:05:40,816:werkzeug:172.31.0.1 - - [18/Jun/2021 15:05:40] "GET /factorial/11 HTTP/1.1" 200 -
+2021-06-18 15:14:29,714:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 15:14:29,715:werkzeug: * Running on http://172.18.0.5:5000/ (Press CTRL+C to quit)
+2021-06-18 15:16:47,535:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 15:16:47,535:werkzeug: * Running on http://172.21.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 15:17:04,853:root:11! = 39916800, calc_time=0.003386[ms]
+2021-06-18 15:17:04,853:werkzeug:172.21.0.1 - - [18/Jun/2021 15:17:04] "GET /factorial/11 HTTP/1.1" 200 -
+2021-06-18 15:31:07,532:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 15:31:07,532:werkzeug: * Running on http://172.26.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 15:31:13,080:werkzeug:172.26.0.1 - - [18/Jun/2021 15:31:13] "GET / HTTP/1.1" 200 -
+2021-06-18 15:31:29,432:app:Exception on /pow/2^5 [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Application/app.py", line 67, in power
+    sock.send(msg.encode())
+BrokenPipeError: [Errno 32] Broken pipe
+2021-06-18 15:31:29,433:werkzeug:172.26.0.1 - - [18/Jun/2021 15:31:29] "[35m[1mGET /pow/2%5E5 HTTP/1.1[0m" 500 -
+2021-06-18 15:31:55,328:app:Exception on /pow/2^5 [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Application/app.py", line 67, in power
+    sock.send(msg.encode())
+BrokenPipeError: [Errno 32] Broken pipe
+2021-06-18 15:31:55,329:werkzeug:172.26.0.1 - - [18/Jun/2021 15:31:55] "[35m[1mGET /pow/2%5E5 HTTP/1.1[0m" 500 -
+2021-06-18 15:31:56,030:app:Exception on /pow/2^5 [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Application/app.py", line 67, in power
+    sock.send(msg.encode())
+BrokenPipeError: [Errno 32] Broken pipe
+2021-06-18 15:31:56,031:werkzeug:172.26.0.1 - - [18/Jun/2021 15:31:56] "[35m[1mGET /pow/2%5E5 HTTP/1.1[0m" 500 -
+2021-06-18 15:34:30,450:app:Exception on /pow/2^5 [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Application/app.py", line 67, in power
+    sock.send(msg.encode())
+BrokenPipeError: [Errno 32] Broken pipe
+2021-06-18 15:34:30,450:werkzeug:172.26.0.1 - - [18/Jun/2021 15:34:30] "[35m[1mGET /pow/2%5E5 HTTP/1.1[0m" 500 -
+2021-06-18 15:36:05,124:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-06-18 15:36:05,124:werkzeug: * Running on http://172.27.0.6:5000/ (Press CTRL+C to quit)
+2021-06-18 15:36:10,281:app:Exception on /pow/2^5 [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Application/app.py", line 67, in power
+    sock.send(msg.encode())
+BrokenPipeError: [Errno 32] Broken pipe
+2021-06-18 15:36:10,282:werkzeug:172.27.0.1 - - [18/Jun/2021 15:36:10] "[35m[1mGET /pow/2%5E5 HTTP/1.1[0m" 500 -
+2021-06-18 15:36:29,448:app:Exception on /pow/2^5 [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Application/app.py", line 67, in power
+    sock.send(msg.encode())
+BrokenPipeError: [Errno 32] Broken pipe
+2021-06-18 15:36:29,449:werkzeug:172.27.0.1 - - [18/Jun/2021 15:36:29] "[35m[1mGET /pow/2%5E5 HTTP/1.1[0m" 500 -

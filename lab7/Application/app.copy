@@ -3,22 +3,14 @@ import logging
 import string
 import math
 import time
-import socket
-
 
 from flask import Flask, request, jsonify
 import json
 
-logging.basicConfig(level=logging.INFO,
+logging.basicConfig(filename='Application.log', level=logging.DEBUG,
                     format='%(asctime)s:%(name)s:%(message)s')
-"""
-when writing logs to file - logs doesnt show up in Grafana. Takes STDOUT as source.
-"""
-# logging.basicConfig(filename='Application.log', level=logging.INFO,
-#                     format='%(asctime)s:%(name)s:%(message)s')
 
 app = Flask(__name__)
-
 
 @app.route("/")
 def slash():
@@ -37,7 +29,7 @@ def factorial(number_in):
     diff = (end - start)/1000000
     
     msg = f'{str(number_in)}! = {str(number_out)}, calc_time={str(diff)}[ms]'
-    logging.info(msg)
+    logging.debug(msg)
     return msg
 
 @app.route("/sqrt/<number_in>")
@@ -50,7 +42,7 @@ def sqrt(number_in):
     diff = (end - start)/1000000
     
     msg = f'sqrt2 of {str(number_in)} = {str(number_out)}, calc_time={str(diff)}[ms]'
-    logging.info(msg)
+    logging.debug(msg)
     return msg
 
 @app.route("/pow/<number_in>^<power_in>")
@@ -64,8 +56,7 @@ def power(number_in, power_in):
     diff = (end - start)/1000000
     
     msg = f'{str(number_in)}^{str(power_in)} = {number_out}, calc_time={str(diff)}[ms]'
-    
-    logging.info(msg)
+    logging.debug(msg)
     return msg
 
 
