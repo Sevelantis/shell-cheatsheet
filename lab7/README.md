@@ -40,13 +40,13 @@ admin
 admin
 ```
 
-![Alt text](/readme-files/1.png?raw=true "one")
+![Alt text](/lab7/readme-files/1.png?raw=true "one")
 
-![Alt text](/readme-files/2.png?raw=true "two")
+![Alt text](/lab7/readme-files/2.png?raw=true "two")
 
-![Alt text](/readme-files/3.png?raw=true "three")
+![Alt text](/lab7/readme-files/3.png?raw=true "three")
 
-![Alt text](/readme-files/4.png?raw=true "44445")
+![Alt text](/lab7/readme-files/4.png?raw=true "44445")
 
 Now press -> 'Log browser, if everything is fine there should show up job(1)
 Now press -> 'fluent-bit' -> Show Logs, set refresh 5s, if nothings happens -> update manually, unset 'wrap lines' for clarity
