@@ -14,5 +14,3 @@ EXPOSE 5000
 ADD ./ /Application
 
 ENTRYPOINT [ "python", "Application/app.py"]
-
-# CMD [ "./node_exporter-1.1.2.darwin-amd64/node_exporter" ]
