@@ -43,7 +43,7 @@ admin
 
 ![Alt text](/readme-files/2.png?raw=true "b")
 
-![Alt text](/readme-files/3.png?raw=true "c")
+![Alt text](/readme-files/3.png "c")
 
 ![Alt text](/readme-files/4.png?raw=true "d")
 
